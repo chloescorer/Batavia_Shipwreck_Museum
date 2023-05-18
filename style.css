@@ -1,3 +1,15 @@
+/*   
+Theme Name: Batavia Shipwreck Gallery
+Theme URI: http://170.187.231.66/~mesh18/
+Description: Batavia Shipwreck Gallery Website, including Home, 3 Blog Pages and a Contact Us Page
+Author: Chloe Scorer
+Author URI: http://170.187.231.66/~mesh18/
+Version: 1
+*/ 
+
+
+
+
 /* HTML */
 html {
     scroll-behavior: smooth;
@@ -222,14 +234,11 @@ article {
     margin-top:4%;
 }
 
-
-
 .blogpara {
     font-family: 'Open Sans', sans-serif;
     font-weight:100;
     color: #F7F0F0;
     padding:2vw;
-
 }
 
 .btn {
@@ -254,6 +263,66 @@ article {
     width:4.5vw;
     float:right;
     margin:15px 0px 15px 15px;
+}
+
+/* Article Sections */
+
+.articleheader {
+    background-image: url(images/articleheader.jpeg);
+    background-size: cover;
+    background-position-y: bottom;
+    align-items: center;
+}
+
+.articleheading {
+    font-family: 'Quattrocento', serif;
+    font-weight:bold;
+    color:#F7F0F0;
+    font-size: 5.5vw;
+    padding:5% 0;
+}
+
+hr.solid {
+    border-top: 3px solid #F7F0F0;
+    align-content: center;
+  }
+
+.articletitle {
+    font-family: 'Quattrocento', serif;
+    font-weight:bold;
+    color:#F7F0F0;
+    font-size: 2em;
+    padding:3%
+}
+
+.articlebg {
+    background-color: #120303;
+    padding:5%;
+    margin-top:-17px
+}
+
+.articleportrait {
+    width:10%;
+    margin-left: 5%;
+}
+
+.articlepost {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    color: #F7F0F0;
+    padding:5%
+}
+
+.backlink {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800;
+    font-size: 1.5em;
+    color: #681414;
+}
+
+.backlink:hover {
+    text-decoration: none;
+    color:#F7F0F0;
 }
 
 /* CONTACT PAGE */
@@ -413,40 +482,51 @@ article {
     text-align: center;
 }
 
-button.accordion{
-    background-color: #ffffff00;
-    border-top: 1px solid #F7F0F0;
+.card {
+    background-color:#ffffff00;
+    height:7%
 }
 
-button.bottomborder{
-    border-bottom: 1px solid #F7F0F0;
+.card-header{
+    padding:0;
 }
-.accordion {
+
+.faquestions {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    color: #F7F0F0;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
+    background-color: #ffffff00;
+    width:100%;
     text-align: left;
-    outline: none;
-    font-size: 1em;
-    transition: 0.4s; }
+    border-top: 1px solid #F7F0F0;
+    margin-top:0;
+    padding:1% 0;
+}
+
+.faquestions:hover {
+    color:#681414;
+    
+}
+
+.faquestions:focus {
+    outline:0;
+    
+}
+
+.extraborder {
+    border-bottom: 1px solid #F7F0F0;
+}
 
 .plus {
-    float: right; }
-  
-.active, .accordion:hover {
-    background-color: #f7f0f050; }
-  
-.panel {
+    float: right;
+}
+
+.card-body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-    color: #F7F0F0;
-    padding: 2%;
-    display: none;
-    overflow: hidden; }
+    color:#F7F0F0;
+}
+
+
 
 /* Footer CSS */
 footer {
@@ -464,13 +544,9 @@ footer a:hover {
     margin-top:30px;}
 
 .footerlogo {
-    height:50px}
-
-ul.footerlinks {
-    list-style-type: none;
-    text-align: right;}
-
-
+    width:70%;
+    padding:5%;
+}
 
     ul {list-style-type: none;}
 
