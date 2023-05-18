@@ -122,44 +122,122 @@
   </div> <!-- Container -->
 </section> <!-- Fluid Container -->
 
-<!-- FAQS -->
+<!-- FAQ SECTION -->
 <section class="container-fluid faqsection">
   <div class="container">
     <h4 class="faq">FREQUENTLY ASKED QUESTIONS</h4>
-    <button class="accordion">What can I see at the Batavia Exhibit?<img class="plus" alt="plus" src="images/plus.png"></button>
-    <div class="panel">
-      <p>At the Batavia exhibit, visitors can witness an impressive collection of artifacts salvaged from the shipwreck, including cannons, navigational tools, personal belongings, and sections of the original hull. The exhibit offers a captivating glimpse into the tragic history of the Batavia and its ill-fated voyage, immersing visitors in a rich narrative of maritime exploration and survival.</p>
-    </div>
-    <button class="accordion">When is the Batavia Exhibit open?<img class="plus" alt="plus" src="images/plus.png"></button>
-    <div class="panel">
-      <p>We are open daily from 9:30am to 5pm, providing ample opportunities for visitors to explore the captivating artifacts and immerse themselves in the tragic history of the shipwreck. Please note that the exhibit has special opening hours on ANZAC Day from 1:00pm to 5:00pm and remains closed on Christmas Day, Boxing Day, New Year's Day, and Good Friday.</p>
-    </div>
-    <button class="accordion">How much does it cost to visit the Batavia Exhibit?<img class="plus" alt="plus" src="images/plus.png"></button>
-    <div class="panel">
-      <p>The entry to the Batavia exhibit at the Fremantle Shipwreck Museum is free for visitors, with a suggested donation of $5 to support the preservation and maintenance of this historically significant site.</p>
-    </div>
-    <button class="accordion">Is the Batavia Exhibit suitable for children?<img class="plus" alt="plus" src="images/plus.png"></button>
-    <div class="panel">
-      <p>The Batavia exhibit is suitable for children as it offers a dedicated play area for them to enjoy. However, parents should be aware that certain parts of the exhibit may contain slightly scary elements that could be unsettling for younger children.</p>
-    </div>
-    <button class="accordion">Is the Batavia Exhibit accessible for people with disabilities?<img class="plus" alt="plus" src="images/plus.png"></button>
-    <div class="panel">
-      <p>The Batavia Gallery is completely accessible to people with disabilities. It features automatic door buttons to assist with opening heavy doors, and elevators are available to ensure convenient access to the upper levels of the exhibit.</p>
-    </div>
-    <button class="accordion">Can I take photos at the Batavia Exhibit?<img class="plus" alt="plus" src="images/plus.png"></button>
-    <div class="panel">
-      <p>Visitors are allowed to take photographs at the Batavia gallery. However, to preserve the delicate artifacts, flash photography is not permitted to ensure their long-term preservation and protection.</p>
-    </div>
-    <button class="accordion bottomborder">Can I purchase souvenirs at the Batavia Exhibit?<img class="plus" alt="plus" src="images/plus.png"></button>
-    <div class="panel">
-      <p>Yes you can, visitors can find a delightful selection of souvenirs available for purchase at the small gift shop conveniently located to the left of the entry to the Batavia gallery.</p>
-    </div> <!-- Panel -->
+    <div id="accordion">
+      <!-- FAQ1 -->
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <button class="btn btn-link collapsed faquestions" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            What can I see at the Batavia Exhibit?
+            <img alt="plus" class="plus" src="images/plus.png">
+          </button>
+        </div> <!-- Card Header -->
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            At the Batavia exhibit, visitors can witness an impressive collection of artifacts salvaged from the shipwreck, including cannons, navigational tools, personal belongings, and sections of the original hull. The exhibit offers a captivating glimpse into the tragic history of the Batavia and its ill-fated voyage, immersing visitors in a rich narrative of maritime exploration and survival.
+          </div> <!-- Card Body -->
+        </div> <!-- Collapse -->
+      </div> <!-- Card -->
+
+      <!-- FAQ2 -->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <button class="btn btn-link collapsed faquestions" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            When is the Batavia Exhibit open?
+            <img alt="plus" class="plus" src="images/plus.png">
+          </button>
+        </div> <!-- Card Header -->
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            We are open daily from 9:30am to 5pm, providing ample opportunities for visitors to explore the captivating artifacts and immerse themselves in the tragic history of the shipwreck. Please note that the exhibit has special opening hours on ANZAC Day from 1:00pm to 5:00pm and remains closed on Christmas Day, Boxing Day, New Year's Day, and Good Friday.
+          </div> <!-- Card Body -->
+        </div> <!-- Collapse -->
+      </div> <!-- Card -->
+
+      <!-- FAQ3 -->
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <button class="btn btn-link collapsed faquestions" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            How much does it cost to visit the Batavia Exhibit?
+            <img alt="plus" class="plus" src="images/plus.png">
+          </button>
+        </div> <!-- Card Header -->
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            The entry to the Batavia exhibit at the Fremantle Shipwreck Museum is free for visitors, with a suggested donation of $5 to support the preservation and maintenance of this historically significant site.
+          </div> <!-- Card Body -->
+        </div> <!-- Collapse -->
+      </div> <!-- Card -->
+
+      <!-- FAQ4 -->
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <button class="btn btn-link collapsed faquestions" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Is the Batavia Exhibit suitable for children?
+            <img alt="plus" class="plus" src="images/plus.png">
+          </button>
+        </div> <!-- Card Header -->
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+          The Batavia exhibit is suitable for children as it offers a dedicated play area for them to enjoy. However, parents should be aware that certain parts of the exhibit may contain slightly scary elements that could be unsettling for younger children.
+          </div> <!-- Card Body -->
+        </div> <!-- Collapse -->
+      </div> <!-- Card -->
+
+      <!-- FAQ5 -->
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <button class="btn btn-link collapsed faquestions" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Is the Batavia Exhibit accessible for people with disabilities?
+            <img alt="plus" class="plus" src="images/plus.png">
+          </button>
+        </div> <!-- Card Header -->
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            The Batavia Gallery is completely accessible to people with disabilities. It features automatic door buttons to assist with opening heavy doors, and elevators are available to ensure convenient access to the upper levels of the exhibit.
+          </div> <!-- Card Body -->
+        </div> <!-- Collapse -->
+      </div> <!-- Card -->
+
+      <!-- FAQ6 -->
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <button class="btn btn-link collapsed faquestions" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Can I take photos at the Batavia Exhibit?
+            <img alt="plus" class="plus" src="images/plus.png">
+          </button>
+        </div> <!-- Card Header -->
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+          <div class="card-body">
+            Visitors are allowed to take photographs at the Batavia gallery. However, to preserve the delicate artifacts, flash photography is not permitted to ensure their long-term preservation and protection.
+          </div> <!-- Card Body -->
+        </div> <!-- Collapse -->
+      </div> <!-- Card -->
+
+      <!-- FAQ7 -->
+      <div class="card">
+        <div class="card-header" id="headingSeven">
+          <button class="btn btn-link collapsed faquestions extraborder" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            Can I purchase souvenirs at the Batavia Exhibit?
+            <img alt="plus" class="plus" src="images/plus.png">
+          </button>
+        </div> <!-- Card Header -->
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+          <div class="card-body">
+            Yes you can, visitors can find a delightful selection of souvenirs available for purchase at the small gift shop conveniently located to the left of the entry to the Batavia gallery.
+          </div> <!-- Card Body -->
+        </div> <!-- Collapse -->
+      </div> <!-- Card -->
+    </div> <!-- Accordion -->
   </div> <!-- Container -->
-</section> <!-- Container Fluid -->
+</section> <!-- Fluid Container -->
 
 <!-- Footer -->
 <footer class="container-fluid">
-  <div class="container">
+  <div class="container text-center">
       <div class="row">
           <div class="col-md-4">
               <a href="#">Back to Top</a>
@@ -192,6 +270,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-<script src="script1.js"></script>
 </body>
 </html>
