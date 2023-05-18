@@ -1,0 +1,476 @@
+/* HTML */
+html {
+    scroll-behavior: smooth;
+    background-color: #120303; }
+
+/* Header CSS */
+a .logo {
+    height:30px;
+    margin:10%; }
+
+.navbar-collapse {
+    -ms-flex-align: center;
+    justify-content: right; }
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #F7F0F0;
+    display: flex;
+    justify-content: right; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#6D7872
+    }
+
+.navbar-dark .navbar-nav .nav-link:active {
+        color:#3D4D44
+        }
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: none;
+    stroke:none; }
+
+/* INDEX PAGE */
+.indexheaderbg {
+    width:100%;
+    background:url("images/headerbg.jpg");
+    background-size: cover;
+    background-position-y:bottom;
+padding-bottom: 10px; }
+
+.indexheading {
+    font-family: 'Quattrocento', serif;
+    color:#F7F0F0;
+    font-size: 5vw;
+    text-align: right;
+    padding-bottom:15%}
+
+.tag{
+    width:90%;
+    justify-content: right;
+    margin-top:40vh}
+
+.haunting {
+    color:#681414;
+    font-size: 12vw;
+    display: block;
+    margin-top:-4.5vw;}
+
+.history {
+    display: block;
+    margin-top: -5vw}
+
+/* Index Blog Page CSS */
+.blogsection {
+    background-color:#120303;
+    padding:5%;}
+
+.blogtag {
+    font-family: 'Quattrocento', serif;
+    color:#F7F0F0;
+    text-align: center;
+    font-size:4vw;}
+
+.blogpostlinksindex:hover {
+    text-decoration: none;}
+
+h3 {
+    font-family: 'Quattrocento', serif;
+    color:#F7F0F0;
+    text-align: center;
+    padding:10px;
+    font-size:1.5em}
+
+.blogimages {
+    width:100%;
+    margin: auto;
+}
+
+.blogpost {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    color: #F7F0F0;}
+
+.dateindex {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color: #F7F0F0;}
+
+.readmore {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color:#681414;
+    text-decoration: none;}
+
+.readmore:hover {
+    color:#F7F0F0;
+    text-decoration: none;
+}
+
+/* Index Tour Page CSS */
+.toursection {
+    background-color: #120303;
+    background-image: url(images/skeleton.png);
+    background-size: cover;
+    background-position-x:right;
+    background-position-y:center;
+}
+
+.negmargin {
+    background-color: #120303;
+    margin-right: -100px;
+    height: 92%;
+    margin-top: 5%;
+    padding: 10% 10% 10% 0;
+}
+
+.tourheading {
+    font-family: 'Quattrocento', serif;
+    color:white;
+    text-align: center;
+    padding: 5%;
+    font-size: 2.75rem;
+}
+
+.tourpara {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color: #F7F0F0;
+    font-size: 1.25rem;
+    margin: 5% 5% 5% 0;
+}
+
+.btn.tourbtn {
+    background-color: #3D4D44;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.skeleton {
+    height:100%
+}
+
+/* BLOG PAGE */
+.blogheaderbg {
+    width:100%;
+    background:url("images/blogheaderbg.jpg");
+    background-size: cover;
+    height:100vh;
+    background-position-y:bottom;}
+
+.blogheading {
+    text-align: left;
+    font-family: 'Quattrocento', serif;
+    color:#F7F0F0;
+    font-size: 4.5vw;
+    }
+
+.tragedy {
+    color: #681414;
+    font-size: 12vw;
+    display: block;
+    margin-top: -4.5vw;
+}
+
+.shipwreck {
+    font-size: 4.5vw;
+    display: block;
+    margin-top: -5vw; 
+}
+
+article {
+    background-color: #120303;
+    padding:20px;
+}
+
+#water {
+    background-image: url(images/water.jpeg);
+}
+
+.postheading {
+    font-family: 'Quattrocento', serif;
+    font-weight: bold;
+    font-size: 3.5vw;
+    color:#F7F0F0;
+    margin-top: 10%;
+}
+
+.portrait {
+    width:4.5vw;
+    float:left;
+    margin:15px 15px 15px 0px;
+}
+
+.info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color: #F7F0F0;
+    margin-top: 4%;}
+
+    .author {
+        font-family: 'Open Sans', sans-serif;
+        font-weight:800;
+        color: #F7F0F0;
+        display:block;
+    }
+
+.blogpics {
+    width: 100%;
+    margin-top:4%;
+}
+
+
+
+.blogpara {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    color: #F7F0F0;
+    padding:2vw;
+
+}
+
+.btn {
+    background-color: #681414;
+    width:200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800;
+    color:#F7F0F0;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.blogbtn {
+    margin-bottom: 5%;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.portrait2 {
+    width:4.5vw;
+    float:right;
+    margin:15px 0px 15px 15px;
+}
+
+/* CONTACT PAGE */
+.contactheaderbg {
+    background:url("images/contactheaderbg.jpg");
+    background-size: cover;
+    background-position-y:bottom; }
+
+.contactheading {
+    font-family: 'Quattrocento', serif;
+    font-weight:bold;
+    font-size: 9vw;
+    color:#681414;
+    text-align: right;
+    padding-bottom:20%;
+    padding-top:10%; }
+
+.contactsection{
+    background-image:url(images/contactbg.jpg);
+    background-size: cover;
+    padding:3%;
+    margin-top:-10px }
+
+.getintouch {
+    font-family:'Quattrocento', serif;
+    font-weight:bold;
+    font-size: 3.25rem;
+    color:#F7F0F0;
+    margin-left:35% }
+
+.contacticon {
+    height:20px;
+    float:left;
+    margin-left:38%;
+    margin-right:5px }
+
+.contacticon2 {
+    height:20px;
+    float:left;
+    margin-left:40%;
+    margin-right:5px; }
+
+.contacticon3 {
+    height:20px;
+    float:left;
+    margin-left:42%;
+    margin-right:7px; }
+
+.contactdetails {
+    font-family:'Open Sans', sans-serif;
+    font-size:1rem;
+    font-weight:200;
+    color:#F7F0F0; }
+
+.bookingheading {
+    font-family: 'Quattrocento', serif;
+    font-weight:bold;
+    font-size: 3rem;
+    color:#F7F0F0;
+    text-align: center; }
+
+.bookingsectionpara {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    color:#F7F0F0;
+    margin-top:10% }
+
+.redtext {
+    color:#681414;
+    font-weight:bold; }
+
+.calendarsection {
+    background-color:#120303;
+    padding-top:10%;
+    padding-bottom:5% }
+
+/* Month Header */
+.month {
+    padding: 5vh 2vw;
+    width: 100%;
+    background-color: #3D4D44;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; }
+
+/* Month List */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 3%;
+  background-color:#C2CCC6;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background-color: #FAFFFC;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+  font-family: 'Open Sans', sans-serif;
+  padding:2%;
+  margin-left:2.5%
+}
+
+.faqsection {
+    background-image: url(images/water.jpeg);
+    padding: 5%;
+}
+
+.faq {
+    font-family: 'Quattrocento', serif;
+    font-weight: 300;
+    font-size: 4vw;
+    color:#F7F0F0;
+    margin:5%;
+    text-align: center;
+}
+
+button.accordion{
+    background-color: #ffffff00;
+    border-top: 1px solid #F7F0F0;
+}
+
+button.bottomborder{
+    border-bottom: 1px solid #F7F0F0;
+}
+.accordion {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #F7F0F0;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+    transition: 0.4s; }
+
+.plus {
+    float: right; }
+  
+.active, .accordion:hover {
+    background-color: #f7f0f050; }
+  
+.panel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #F7F0F0;
+    padding: 2%;
+    display: none;
+    overflow: hidden; }
+
+/* Footer CSS */
+footer {
+    background-color: #120303;
+    padding:2%}
+
+footer a {
+    color:#F7F0F0;
+    font-family: 'Open Sans', sans-serif;}
+
+footer a:hover {
+    color:#6D7872;}
+
+.icons {
+    margin-top:30px;}
+
+.footerlogo {
+    height:50px}
+
+ul.footerlinks {
+    list-style-type: none;
+    text-align: right;}
+
+
+
+    ul {list-style-type: none;}
+
