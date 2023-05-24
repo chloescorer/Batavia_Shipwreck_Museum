@@ -43,26 +43,26 @@
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.png" class="logo" alt="Brand Logo">
+                    <img src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/logo.png" class="logo" alt="Brand Logo">
                 </a>
                 <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"><img src="images/hamburger.png" alt="Icon"></span>
-            </button>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                       <a class="nav-link" href="blog.html">ARTICLES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT US</a>
-                    </li>
-                </ul>
-            </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <?php 
+
+wp_nav_menu( array(
+  'theme_location'  => 'primary',
+  'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+  'container'       => 'div',
+  'container_class' => 'collapse navbar-collapse',
+  'container_id'    => 'bs-example-navbar-collapse-1',
+  'menu_class'      => 'navbar-nav ml-auto',
+  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+  'walker'          => new WP_Bootstrap_Navwalker(),
+) );
+
+?>
         </nav>
         <div class="tag">
             <h1 class="indexheading">EXPLORE THE BATAVIA'S
