@@ -6,7 +6,7 @@
         <div class="row">
             <!-- Blog Post 1 -->
             <div class="col-md-4">
-                <img class="img-fluid blogimages" src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/postthumbnail1.jpg"  alt="Underwater Image of the Batavia">
+                <img class="img-fluid blogimages" src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/post1thumbnail.jpg"  alt="Underwater Image of the Batavia">
                 <h3 class="blogheadingcontainer"> AN ARCHAEOLOGICAL EXPLORATION OF THE BATAVIA WRECK </h3>
                 <p class="blogpost">Dr Jane Smith, Batavia Archaeologist,  delves into the exploration of the Batavia shipwreck, including the discovery of artefacts and how they provide insights into life onboard.</p>
                 <p class="dateindex" >Feb 16 2023</p>
@@ -15,7 +15,7 @@
             
             <!-- Blog Post 2 -->
             <div class="col-md-4">
-                <img class="img-fluid blogimages" src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/postthumbnail2.jpg" alt="Survivors Monument Batavia">
+                <img class="img-fluid blogimages" src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/post2thumbnail.jpg" alt="Survivors Monument Batavia">
                 <h3> A TALE OF RESILIENCE: BATAVIA SHIPWRECK SURVIVORS </h3>
                 <p class="blogpost">Sarah Jones, WA Historian, tells the story of the survivors of the Batavia wreck, including their struggles to survive and the events that led to their eventual rescue.</p>
                 <p class="dateindex">Jan 16 2023</p>
@@ -24,7 +24,7 @@
             
             <!-- Blog Post 3 -->
             <div class="col-md-4">
-                <img class="img-fluid blogimages" src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/postthumbnail3.jpg" alt="Black and White Image of Fremantle">
+                <img class="img-fluid blogimages" src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/post3thumbnail.jpg" alt="Black and White Image of Fremantle">
                     <h3> A COMPREHENSIVE GUIDE TO SEEING THE BATAVIA TODAY </h3>
                     <p class="blogpost">John Smith, Travel Writer, provides a  guide to visiting the Batavia, with information about how to get there, what to expect and how to make the most of your visit.</p>
                     <p class="dateindex">Dec 16 2022</p>
