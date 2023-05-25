@@ -7,10 +7,10 @@ Template Name: Blog
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <section class="col-md-7">              
+            <section>              
             <?php 
 $args = array(
-  'category_name' =>  'Archaeology',
+  'category_name' =>  'BlogPosts',
  // 'posts_per_page'    =>   1
 );
 // the query
