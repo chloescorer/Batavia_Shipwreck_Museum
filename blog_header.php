@@ -37,7 +37,7 @@
 
 <body>
     <!-- Header -->
-<header class="container-fluid blogheaderbg">
+<header class="container-fluid blogheaderbg" style="background-size:cover; background-image: url(<?php the_field('blogheaderimg') ?>);">
     <div class="container">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -65,9 +65,9 @@ wp_nav_menu( array(
 ?>
     </nav>
     <div class="tag">
-        <h1 class="blogheading">THE
-            <span class="tragedy">TRAGEDY</span>
-            <span class="shipwreck">OF THE BATAVIA SHIPWRECK</span>
+        <h1 class="blogheading"><?php the_field('blogpageheader') ?>
+            <span class="tragedy"><?php the_field('blogpageheaderspan1') ?></span>
+            <span class="shipwreck"><?php the_field('blogpageheaderspan2') ?></span>
         </h1>
     </div>
 </div> <!-- Container -->
