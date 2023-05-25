@@ -37,7 +37,7 @@
 
 <body>
     <!-- Header -->
-    <header class="container-fluid indexheaderbg">
+    <header class="container-fluid indexheaderbg" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
         <div class="container">
             <!-- Navigation Bar -->
             <nav class="navbar navbar-expand-md navbar-dark">
@@ -65,9 +65,9 @@ wp_nav_menu( array(
 ?>
         </nav>
         <div class="tag">
-            <h1 class="indexheading">EXPLORE THE BATAVIA'S
-                <span class="haunting">HAUNTING</span>
-              <span class="history">HISTORY</span>
+            <h1 class="indexheading"><?php the_field('indextagline'); ?>
+                <span class="haunting"><?php the_field('indextaglinespan1'); ?></span>
+              <span class="history"><?php the_field('indextaglinespan2'); ?></span>
             </h1>
         </div> <!-- Tagline Div -->
     </div> <!-- Container -->
