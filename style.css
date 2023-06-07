@@ -7,15 +7,12 @@ Author URI: http://170.187.231.66/~mesh18/
 Version: 1
 */ 
 
-
-
-
-/* HTML */
+/* GENERAL HTML */
 html {
     scroll-behavior: smooth;
     background-color: #120303; }
 
-/* Header CSS */
+/*Header CSS*/
 a .logo {
     height:30px;
     margin:10%; }
@@ -32,12 +29,10 @@ a .logo {
     justify-content: right; }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:#6D7872
-    }
+    color:#6D7872;}
 
 .navbar-dark .navbar-nav .nav-link:active {
-        color:#3D4D44
-        }
+        color:#3D4D44;}
 
 .navbar-dark .navbar-toggler-icon {
     background-image: none;
@@ -49,14 +44,14 @@ a .logo {
     background:url("images/headerbg.jpg");
     background-size: cover;
     background-position-y:bottom;
-padding-bottom: 10px; }
+    padding-bottom: 10px; }
 
 .indexheading {
     font-family: 'Quattrocento', serif;
     color:#F7F0F0;
     font-size: 5vw;
     text-align: right;
-    padding-bottom:15%}
+    padding-bottom:15%;}
 
 .tag{
     width:90%;
@@ -73,7 +68,6 @@ padding-bottom: 10px; }
     display: block;
     margin-top: -5vw}
 
-/* Index Blog Page CSS */
 .blogsection {
     background-color:#120303;
     padding:5%;}
@@ -96,8 +90,7 @@ h3 {
 
 .blogimages {
     width:100%;
-    margin: auto;
-}
+    margin: auto;}
 
 .blogpost {
     font-family: 'Open Sans', sans-serif;
@@ -117,8 +110,7 @@ h3 {
 
 .readmore:hover {
     color:#F7F0F0;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 /* Index Tour Page CSS */
 .toursection {
@@ -126,44 +118,38 @@ h3 {
     background-image: url(images/skeleton.png);
     background-size: cover;
     background-position-x:right;
-    background-position-y:center;
-}
+    background-position-y:center;}
 
 .negmargin {
     background-color: #120303;
     margin-right: -100px;
     height: 92%;
     margin-top: 5%;
-    padding: 10% 10% 10% 0;
-}
+    padding: 10% 10% 10% 0;}
 
 .tourheading {
     font-family: 'Quattrocento', serif;
     color:white;
     text-align: center;
     padding: 5%;
-    font-size: 2.75rem;
-}
+    font-size: 2.75rem;}
 
 .tourpara {
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
     color: #F7F0F0;
     font-size: 1.25rem;
-    margin: 5% 5% 5% 0;
-}
+    margin: 5% 5% 5% 0;}
 
 .btn.tourbtn {
     background-color: #3D4D44;
     display: flex;
     justify-content: center;
     margin-top: 20%;
-    margin-bottom: 5%;
-}
+    margin-bottom: 5%;}
 
 .skeleton {
-    height:100%
-}
+    height:100%}
 
 /* BLOG PAGE */
 .blogheaderbg {
@@ -177,44 +163,37 @@ h3 {
     text-align: left;
     font-family: 'Quattrocento', serif;
     color:#F7F0F0;
-    font-size: 4.5vw;
-    }
+    font-size: 4.5vw;}
 
 .tragedy {
     color: #681414;
     font-size: 12vw;
     display: block;
-    margin-top: -4.5vw;
-}
+    margin-top: -4.5vw;}
 
 .shipwreck {
     font-size: 4.5vw;
     display: block;
-    margin-top: -5vw; 
-}
+    margin-top: -5vw; }
 
 article {
     background-color: #120303;
-    padding:20px;
-}
+    padding:20px;}
 
 #water {
-    background-image: url(images/water.jpeg);
-}
+    background-image: url(images/water.jpeg);}
 
 .postheading {
     font-family: 'Quattrocento', serif;
     font-weight: bold;
     font-size: 3.5vw;
     color:#F7F0F0;
-    margin-top: 10%;
-}
+    margin-top: 10%;}
 
 .portrait {
     width:4.5vw;
     float:left;
-    margin:15px 15px 15px 0px;
-}
+    margin:15px 15px 15px 0px;}
 
 .info {
     font-family: 'Open Sans', sans-serif;
@@ -222,24 +201,21 @@ article {
     color: #F7F0F0;
     margin-top: 4%;}
 
-    .author {
-        font-family: 'Open Sans', sans-serif;
-        font-weight:800;
-        color: #F7F0F0;
-        display:block;
-    }
+.author {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800;
+    color: #F7F0F0;
+    display:block;}
 
 .blogpics {
     width: 100%;
-    margin-top:4%;
-}
+    margin-top:4%;}
 
 .blogpara {
     font-family: 'Open Sans', sans-serif;
     font-weight:100;
     color: #F7F0F0;
-    padding:2vw;
-}
+    padding:2vw;}
 
 .btn {
     background-color: #681414;
@@ -248,25 +224,20 @@ article {
     font-weight:800;
     color:#F7F0F0;
     margin: auto;
-    margin-top: 5vw;
-}
+    margin-top: 5vw;}
 
 .blogbtn {
-    margin-bottom: 5%;
-}
+    margin-bottom: 5%;}
 
 .rightalign {
-    text-align: right;
-}
+    text-align: right;}
 
 .portrait2 {
     width:4.5vw;
     float:right;
-    margin:15px 0px 15px 15px;
-}
+    margin:15px 0px 15px 15px;}
 
 /* Article Sections */
-
 .articleheader {
     background-image: url(images/articleheader.jpeg);
     background-size: cover;
@@ -410,27 +381,23 @@ hr.solid {
 /* Month List */
 .month ul {
   margin: 0;
-  padding: 0;
-}
+  padding: 0;}
 
 .month ul li {
   color: white;
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 3px;
-}
+  letter-spacing: 3px;}
 
 /* Previous button inside month header */
 .month .prev {
   float: left;
-  padding-top: 10px;
-}
+  padding-top: 10px;}
 
 /* Next button */
 .month .next {
   float: right;
-  padding-top: 10px;
-}
+  padding-top: 10px;}
 
 /* Weekdays (Mon-Sun) */
 .weekdays {
@@ -438,22 +405,19 @@ hr.solid {
   padding: 3%;
   background-color:#C2CCC6;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
+  text-align: center;}
 
 .weekdays li {
   display: inline-block;
   width: 13%;
   color: #666;
-  text-align: center;
-}
+  text-align: center;}
 
 /* Days (1-31) */
 .days {
   padding: 10px 0;
   background-color: #FAFFFC;
-  margin: 0;
-}
+  margin: 0;}
 
 .days li {
   list-style-type: none;
@@ -465,13 +429,11 @@ hr.solid {
   color: #777;
   font-family: 'Open Sans', sans-serif;
   padding:2%;
-  margin-left:2.5%
-}
+  margin-left:2.5%}
 
 .faqsection {
     background-image: url(images/water.jpeg);
-    padding: 5%;
-}
+    padding: 5%;}
 
 .faq {
     font-family: 'Quattrocento', serif;
@@ -479,17 +441,14 @@ hr.solid {
     font-size: 4vw;
     color:#F7F0F0;
     margin:5%;
-    text-align: center;
-}
+    text-align: center;}
 
 .card {
     background-color:#ffffff00;
-    height:7%
-}
+    height:7%}
 
 .card-header{
-    padding:0;
-}
+    padding:0;}
 
 .faquestions {
     font-family: 'Open Sans', sans-serif;
@@ -498,35 +457,31 @@ hr.solid {
     width:100%;
     text-align: left;
     border-top: 1px solid #F7F0F0;
-    margin-top:0;
-    padding:1% 0;
-}
+    margin: 0 0 5px 0
+    /* margin-top:0; */
+    /* padding:1% 0; */}
 
 .faquestions:hover {
-    color:#681414;
-    
-}
+    color:#681414;}
 
 .faquestions:focus {
-    outline:0;
-    
-}
+    outline:0;}
 
 .extraborder {
-    border-bottom: 1px solid #F7F0F0;
-}
+    border-bottom: 1px solid #F7F0F0;}
 
 .plus {
-    float: right;
-}
+    float: right;}
 
 .card-body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-    color:#F7F0F0;
+    color:#F7F0F0;}
+
+.maincontainer {
+    background-color:#120303;
+    margin-top: -2%;
 }
-
-
 
 /* Footer CSS */
 footer {
@@ -545,14 +500,20 @@ footer a:hover {
 
 .footerlogo {
     width:70%;
-    padding:5%;
-}
+    padding:5%;}
 
-    ul {list-style-type: none;}
+ul {
+    list-style-type: none;}
 
     img.attachment-thumbnail.size-thumbnail.wp-post-image {
         margin-left: 10px;
         float: left;
         margin-right: 10px;
         padding: 10px;
+    }
+
+.thepost p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    color: #F7F0F0;
     }
