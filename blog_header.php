@@ -42,7 +42,7 @@
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="http://170.187.231.66/~mesh18/">
                 <img src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/logo.png" class="logo" alt="Brand Logo">
             </a>
             <!-- Toggler/collapsibe Button -->
@@ -50,7 +50,6 @@
         <span class="navbar-toggler-icon"></span>
     </button>
         <?php 
-
 wp_nav_menu( array(
   'theme_location'  => 'primary',
   'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
@@ -61,7 +60,6 @@ wp_nav_menu( array(
   'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
   'walker'          => new WP_Bootstrap_Navwalker(),
 ) );
-
 ?>
     </nav>
     <div class="tag">
