@@ -42,7 +42,7 @@
             <!-- Navigation Bar -->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="http://170.187.231.66/~mesh18/">
                     <img src="http://170.187.231.66/~mesh18/wp-content/themes/batavia_shipwreck_museum/images/logo.png" class="logo" alt="Brand Logo">
                 </a>
                 <!-- Toggler/collapsibe Button -->
